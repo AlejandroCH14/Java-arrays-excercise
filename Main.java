@@ -7,7 +7,7 @@ public class Main {
         numbers.insert(3);
         numbers.insert(4);
         numbers.insert(40);
-
-        System.out.println(numbers.indexOf(4));
+        numbers.removeAt(3);
+        System.out.println(numbers.indexOf(40));
     }
 }
